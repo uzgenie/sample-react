@@ -1,0 +1,153 @@
+.section-title {
+  margin: 0 0 30px 0;
+  padding: 5px 10px;
+  background: -moz-linear-gradient(
+    left,
+    rgba(235, 245, 247, 1) 0%,
+    rgba(235, 245, 247, 1) 49%,
+    rgba(235, 245, 247, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(235, 245, 247, 1) 0%,
+    rgba(235, 245, 247, 1) 49%,
+    rgba(235, 245, 247, 0) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(235, 245, 247, 1) 0%,
+    rgba(235, 245, 247, 1) 49%,
+    rgba(235, 245, 247, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebf5f7', endColorstr='#00ebf5f7', GradientType=1);
+
+  h4 {
+    margin: 0;
+    font-size: @h4-size;
+    color: @black;
+  }
+}
+.adjust-padd {
+  padding: 0px 15px 30px 15px !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+
+.rounded-radio-btn .ant-radio-button-wrapper {
+  padding: 0px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50% !important;
+  line-height: 40px !important;
+  font-size: 13px;
+  display: inline-block;
+  margin-right: 9.8px;
+  border: 1px solid #eee;
+}
+
+.rounded-radio-btn .ant-radio-button-wrapper:hover,
+.rounded-radio-btn .ant-radio-button-wrapper:active {
+  background-color: @light-blue-color;
+  color: @white;
+}
+
+.alarm-popup .ant-radio-button-wrapper:not(:first-child)::before {
+  background: none !important;
+}
+
+.dark-bg {
+  background-color: @text-color !important;
+  color: @white !important;
+}
+
+.light-blue-bg {
+  background-color: @light-blue-color !important;
+  color: @white !important;
+}
+
+.filter-bills-label-width {
+  label {
+    display: inline-block;
+    width: 25%;
+  }
+}
+
+.generic-tabs-setting {
+  padding: 20px 15px;
+}
+
+.product-display {
+  margin-bottom: 20px;
+}
+
+.seprator {
+  border: 1px solid @light-gray;
+}
+
+.mg-right-70 {
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.mg-top-24 {
+  margin-top: 24px;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.handle-error-msg {
+  span.error-text {
+    display: block;
+  }
+}
+.billwrapp {
+  .ant-tabs-nav-container.ant-tabs-nav-container-scrolling {
+    transform: none;
+    transition: none;
+  }
+  .ant-tabs-nav-container {
+    padding-left: 15px;
+    padding: 0px;
+  }
+}
+.alarm-popup {
+  .error-text {
+    display: block;
+    text-transform: capitalize;
+  }
+}
+.icons-col {
+  .status-styling a {
+    color: #4d4d4d;
+  }
+}
+.row-error-text-size {
+  .error-text {
+    font-size: 11px;
+  }
+}
+.recurring-messages {
+  div {
+    text-transform: capitalize;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .filter-bills-label-width {
+    label {
+      width: auto;
+    }
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .mob-mg-btm-24 {
+    margin-bottom: 24px;
+  }
+  .mob-hide-col {
+    display: none !important;
+  }
+}

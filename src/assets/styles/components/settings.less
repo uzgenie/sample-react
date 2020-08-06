@@ -1,0 +1,232 @@
+.setting-all-data {
+  .ant-tabs-bar {
+    margin-bottom: 0px;
+  }
+  label {
+    font-size: 15px;
+  }
+  .heading-tab h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #000;
+  }
+  .heading-tab {
+    margin-bottom: @mb-5;
+    border-bottom: 1px solid @border-color-base;
+    padding-bottom: @mb-2;
+  }
+}
+.style-overide {
+  .ant-tabs-tab p {
+    margin-bottom: 0px;
+  }
+}
+.settings-box-wrap {
+  padding: 30px;
+  background: @tab-content;
+  margin-bottom: 40px;
+  border-radius: 3px;
+  border: 0 none;
+
+  // #additional-table {
+  //   .ant-table-thead>tr>th {
+  //     background: @thead-bg;
+  //   }
+  // }
+  .ant-tabs-bar {
+    margin-bottom: 0px !important;
+  }
+  .tablist {
+    margin-bottom: 0px;
+  }
+  .tabpanel {
+    padding: 0px;
+  }
+  .heading-tab {
+    margin-bottom: @mb-5;
+    border-bottom: 1px solid @border-color-base;
+    padding-bottom: @mb-2;
+
+    h4 {
+      margin: 0;
+      font-size: 18px;
+      color: @black;
+    }
+    .image-crop-box {
+      .image-holder {
+        .ant-upload {
+          width: 170px;
+          height: 170px;
+          float: none;
+          margin: 0 auto;
+        }
+      }
+    }
+    .settings-box-wrap {
+      .ant-picker.ant-picker-default.ant-picker-focused {
+        display: block;
+      }
+    }
+  }
+
+  .name-field-full {
+    .full-width-input {
+      width: 100%;
+    }
+
+    .ant-select {
+      width: 100%;
+    }
+
+    .ant-input-number {
+      width: 100%;
+    }
+  }
+
+  .seperator-line {
+    height: 1px;
+    background: @border-color-base;
+    margin: 0 0 25px 0;
+  }
+
+  .section-heading-inner {
+    font-weight: bold;
+    margin-bottom: @mb-5;
+  }
+
+  .test-code {
+    background: @text-color;
+    color: @white;
+
+    // padding: 0px 15px;
+    display: inline-block;
+    min-width: 130px;
+    border-radius: 3px;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+  }
+
+  .section-title {
+    margin: 0 0 30px 0;
+    padding: 5px 10px;
+    background: linear-gradient(
+      to right,
+      @section-title-light-gradient-start 0%,
+      @section-title-light-gradient-start 49%,
+      rgba(235, 245, 247, 0) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@section-title-light-gradient-start', endColorstr='@section-title-light-gradient-end', GradientType=1);
+
+    h4 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: bold;
+      color: @black;
+    }
+  }
+
+  .check-password {
+    color: @success-color;
+  }
+}
+
+.style-overide {
+  padding: 0 !important;
+  background: none !important;
+  border: 0 none !important;
+}
+
+.custom-row-margin {
+  .ant-col {
+    margin-bottom: 20px;
+  }
+}
+
+.calendar-schedule {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  .ant-fullcalendar-content {
+    bottom: auto;
+    top: -5px;
+  }
+
+  .ant-fullcalendar-value {
+    position: relative;
+    z-index: 9;
+  }
+}
+
+.holiday-indicator {
+  margin-top: @mt-5;
+
+  .color-label {
+    vertical-align: top;
+  }
+
+  .selected-dates-label {
+    .color-tag1 {
+      background: @theme-col-light-blue;
+      height: 20px;
+      width: 20px;
+      margin-right: @mr-2;
+      display: inline-block;
+    }
+  }
+
+  .selected-holidays-label {
+    .color-tag2 {
+      background: @error-color;
+      height: 10px;
+      width: 10px;
+      margin-right: @mr-2;
+      border-radius: 50px;
+      display: inline-block;
+    }
+  }
+}
+
+.schedule-calender-wrapper {
+  margin-top: 100px;
+}
+
+.working-days {
+  background: @theme-col-light-blue;
+  color: @white;
+  top: 10px;
+  position: relative;
+  padding: 15px;
+  max-width: 45px;
+  margin: 0 auto;
+}
+
+.label-input-style {
+  border: 1px solid #ccc;
+}
+
+.label-tag-created {
+  border: 1px solid #ccc;
+}
+
+.input-override {
+  .ant-select-selection {
+    border: 1px solid #ccc;
+    background: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .schedule-col {
+    table td:nth-child(3),
+    table td:nth-child(4) {
+      padding: 0px;
+      .ant-picker {
+        padding: 4px 5px;
+      }
+    }
+  }
+  .setting-all-data .previliges label,
+  .mob-font-11 .ant-col > label {
+    font-size: 11px;
+  }
+}

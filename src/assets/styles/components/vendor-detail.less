@@ -1,0 +1,111 @@
+.vendor-detail {
+    border          : 1px solid @background-gray;
+    background-color: @white;
+    border-radius   : 4px;
+
+    .ant-tabs-tabpane {
+        padding: 15px;
+    }
+
+    .ant-tabs-nav {
+        display: flex;
+
+        div {
+            width: 100%;
+        }
+
+        .ant-tabs-tab:hover {
+            color: @black;
+        }
+
+        .ant-tabs-tab-active {
+            color: @black;
+        }
+
+        .ant-tabs-ink-bar {
+            background-color: @link-color;
+        }
+
+        .ant-tabs-tab {
+            width : 50%;
+            margin: 0;
+        }
+    }
+
+    .info-group {
+        margin: 0 0 15px 0;
+        float : left;
+        width : 100%;
+
+        label {
+            float  : left;
+            width  : 150px;
+            padding: 0 15px 0 0;
+
+            span {
+                float: right;
+            }
+        }
+
+        .text {
+            float: left;
+            width: calc(100% - 150px);
+        }
+    }
+
+    .representative-table-list {
+        margin: 50px 0;
+    }
+
+    .section-title {
+        margin    : 0 0 30px 0;
+        padding   : 5px 10px;
+        background: -moz-linear-gradient(left, rgba(235, 245, 247, 1) 0%, rgba(235, 245, 247, 1) 49%, rgba(235, 245, 247, 0) 100%);
+        background: -webkit-linear-gradient(left, rgba(235, 245, 247, 1) 0%, rgba(235, 245, 247, 1) 49%, rgba(235, 245, 247, 0) 100%);
+        background: linear-gradient(to right, rgba(235, 245, 247, 1) 0%, rgba(235, 245, 247, 1) 49%, rgba(235, 245, 247, 0) 100%);
+        filter    : progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebf5f7', endColorstr='#00ebf5f7', GradientType=1);
+
+        h4 {
+            margin   : 0;
+            font-size: @h4-size;
+            color    : @black;
+        }
+    }
+
+    .anticon-delete {
+        color: @text-color;
+    }
+
+    .ant-select {
+        box-shadow: none !important;
+    }
+
+    .ant-select-focused .ant-select-selection,
+    .ant-select-selection:hover {
+        box-shadow  : none !important;
+        border-color: @border-color-base  !important;
+    }
+
+    .note-text {
+        margin: 20px 0 0 0;
+    }
+}
+
+.heading-main .main-title {
+    margin: 0;
+}
+
+.heading-main .sub-title {
+    margin: 0 0 20px 0;
+    color : @text-color;
+}
+
+@media (max-width:800px) {
+    .vendor-detail {
+        .ant-tabs-nav {
+            .ant-tabs-tab {
+                width: 100%;
+            }
+        }
+    }
+}

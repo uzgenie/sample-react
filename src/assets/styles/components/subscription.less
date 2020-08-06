@@ -1,0 +1,193 @@
+.light-blue-btn-bg {
+  background: @light-blue-color !important;
+  color: @white !important;
+}
+.angle-shape.blue-angle-shape .blue-icon {
+  svg path {
+    fill: @link-color!important;
+  }
+}
+.ant-btn.btn.light-blue-btn-bg:hover {
+  color: @white !important;
+}
+.card-styling {
+  min-height: 340px;
+  h2 {
+    margin-bottom: 0px;
+  }
+  .card-header {
+    padding: 20px 0px;
+    text-align: center;
+  }
+  .card-header p {
+    margin-bottom: 0px;
+  }
+  .seprator {
+    margin: 0px 10px;
+  }
+  .card-body h3 {
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    font-size: 24px;
+  }
+  .card-body h3,
+  .card-body p {
+    text-align: center;
+  }
+  .card-body p {
+    padding: 40px 50px 20px 50px;
+    margin-bottom: 0px;
+  }
+  .card-btn {
+    text-align: center;
+  }
+}
+.hovered-box {
+  box-shadow: 2px 1px 5px 2px #ccc;
+}
+.popular-head {
+  background-color: @link-color;
+  color: @white;
+  p {
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+}
+.flex-end {
+  align-items: flex-end;
+}
+.btn-blue {
+  background-color: @link-color;
+  color: @white!important;
+}
+
+.subscription-sale {
+  .btn-blue {
+    background-color: @link-color!important;
+  }
+  .btn-blue:hover {
+    border-color: @link-color!important;
+
+    color: @white!important;
+  }
+}
+.subscription-content {
+  min-width: 100%;
+}
+.setting-box {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.cutting-box {
+  position: relative;
+}
+.angle-shape {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+  position: relative;
+  .right,
+  .left {
+    border-style: solid;
+    height: 0;
+  }
+  .right {
+    min-width: 40%;
+  }
+  .left {
+    min-width: 60%;
+  }
+  .corner-bottom-right-bevel {
+    border-color: @white transparent transparent transparent;
+    border-width: 150px 150px 0 0;
+  }
+  .corner-top-left-bevel {
+    text-align: center;
+  }
+}
+.blue-angle-shape {
+  .corner-top-left-bevel {
+    border-color: @light-blue-color transparent @light-blue-color;
+  }
+  .wrapp-subsription-content h2 {
+    color: @light-blue-color;
+  }
+  .wrapp-subsription-right-content h2 span i svg {
+    fill: @light-blue-color!important;
+  }
+}
+.left.corner-top-left-bevel {
+  svg path {
+    fill: @btn-danger-background!important;
+  }
+}
+.wrapp-subsription-right-content {
+  position: absolute;
+  right: 12%;
+  top: 25%;
+
+  h2 {
+    color: @white;
+    margin-bottom: 0px;
+  }
+  p {
+    color: @white;
+    margin-bottom: 0px;
+    font-size: 18px;
+  }
+  span {
+    margin-left: 15px;
+  }
+  h2 span a span {
+    margin-left: 0px !important;
+  }
+}
+
+.bg-red {
+  background-color: @light-red-color;
+}
+.wrapp-subsription-content {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  padding: 25px;
+}
+.wrapp-subsription-content p,
+.wrapp-subsription-content h2 {
+  margin-bottom: 0px;
+}
+
+.wrapp-subsription-content h2 {
+  color: @light-red-color;
+  font-weight: bold;
+}
+.corner-top-left-bevel {
+  border-color: @light-red-color transparent @light-red-color;
+  border-width: 0 0 150px 150px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .subscription-wrapper .text-align-mobile {
+    text-align: right !important;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .card-styling {
+    margin-bottom: 24px;
+  }
+  .corner-top-left-bevel {
+    border-color: @light-red-color;
+  }
+  .angle-shape .left {
+    min-width: 100% !important;
+  }
+  .wrapp-subsription-right-content {
+    top: 60% !important;
+  }
+  .blue-angle-shape .corner-top-left-bevel {
+    border-color: #62c6d7 #62c6d7 #62c6d7;
+  }
+}
